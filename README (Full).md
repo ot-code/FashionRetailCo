@@ -1,7 +1,5 @@
 # <h1 align="center">Segmentación de clientes para Fashion Retail Co. </h1>
 
-## Tabla de contenido
-
 # 1. Resumen ejecutivo
 
 > Problema de negocio:
@@ -264,6 +262,13 @@ df.to_csv('clean_fashion_retail_sales.csv', index=False)
 
 ## Analizando la distribución del monto de compra y el review rating
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d39d2b57-0b65-4f8f-b9d1-28fdc8efad0b" alt="1. Distribución de compra (USD)s" width="1280" height="720" />
+  <div align="center">
+    Distribución de compra (USD)
+  </div>
+</div>
+
 ### Gráfico 1. “Distribución de monto de compra (USD)”
 
 **Datos duros**
@@ -283,6 +288,13 @@ df.to_csv('clean_fashion_retail_sales.csv', index=False)
 - **A las compras del segmento masivo** (picos centrales), se pueden emplear campañas de productos populares y bundles en $40–$60.
 - **A las compras del segmento premium** ($120+), se le pueden emplear ofertas exclusivas o se puede hacer upsell de artículos de mayor margen.
 - **A las compras de alto gasto** (~$300), los clientes VIP; se les puede incluir en un programa de fidelidad especial o atención personalizada.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5f91a98e-50ab-4f46-b9d2-bc9aa4e29efa" alt="Distribución del review rating" width="1280" height="720" />
+  <div align="center">
+    Distribución del review rating
+  </div>
+</div>
 
 ### Gráfico 2. “Distribución del review rating”
 
@@ -341,6 +353,14 @@ df.to_csv('clean_fashion_retail_sales.csv', index=False)
 
 ## Analizando los items más comprados y los métodos de pago
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/37b88b15-f90b-4380-b77e-0e6b958f7837" alt="Top 10 items comprados" width="1280" height="720" />
+  <div align="center">
+    Top 10 items comprados
+  </div>
+</div>
+
+
 ### Gráfico 3. “Top 10 items comprados”
 
 **Datos duros**
@@ -358,6 +378,13 @@ df.to_csv('clean_fashion_retail_sales.csv', index=False)
 
 - Se recomendaría crear bundles estratégicos como la combinación de cinturones con faldas o pantalones. Se pueden desarrollar ofertas como “compre 1 y lleve descuento en el cinturón” para elevar el ticket promedio.
 - Se puede contemplar aumentar el inventario faldas y shorts antes de la época primavera/verano o se pueden planificar campañas “back to loungewear” para las pijamas y sudaderas en otoño/invierno
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4796aa4c-bb74-4156-9282-a0b9fe4f21b8" alt="Métodos de pago" width="1280" height="720" />
+  <div align="center">
+    Métodos de pago
+  </div>
+</div>
 
 ### Gráfico 4. “Métodos de pago”
 
@@ -421,6 +448,13 @@ df.to_csv('clean_fashion_retail_sales.csv', index=False)
 
 ## Analizando las ventas mensuales y semanales
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5529c2c7-7142-4156-87cb-b49b87e6acac" alt="Ventas mensuales totales USD" width="1280" height="720" />
+  <div align="center">
+    Ventas mensuales totales USD
+  </div>
+</div>
+
 ### Gráfico 5. “Ventas mensuales totales USD”
 
 **Datos duros**
@@ -445,6 +479,13 @@ df.to_csv('clean_fashion_retail_sales.csv', index=False)
     - Reducir inventario o liquidar prendas en meses valle.
 - **Evaluación de tendencias:**
     - Si hay una tendencia al alza general, invertir más en marketing continuo; si es plana, explorar nuevas líneas de producto o canales de venta.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5bd54921-6226-4621-a67f-49b2c0d9c46c" alt="Ventas por día de la semana" width="1280" height="720" />
+  <div align="center">
+    Ventas por día de la semana
+  </div>
+</div>
 
 ### Gráfico 6. “Ventas por día de la semana”
 
@@ -504,6 +545,13 @@ Dentro de las acciones que pudieran contemplarse están las siguientes:
 
 ## Analizando la correlación monto-rating
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9d8bee36-ae34-46a4-83cc-85112d49676c" alt="Correlación entre el monto y rating" width="1280" height="720" />
+  <div align="center">
+    Correlación entre el monto y rating
+  </div>
+</div>
+
 ### Gráfico 7. “Correlación entre el monto y rating”
 
 **Datos duros**
@@ -530,6 +578,13 @@ Con esta información, se podría decir que en:
     - Dado que el rating no discrimina el ticket, se puede recurrir a la segmentación RFM (recencia/frecuencia/ valor monetario) para diseñar promociones y tratar el rating como una **métrica de calidad** independiente.
 3. **Monitoreo continuo**
     - Aunque hoy la correlación es baja, conviene revisarla tras cambios de catálogo o ajustes de precio para detectar si en el futuro surge alguna tendencia.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f3a3133d-ff21-4172-8bcf-f41b79ebf007" alt="Rating vs. monto de compra" width="1280" height="720" />
+  <div align="center">
+    Rating vs. monto de compra
+  </div>
+</div>
 
 ### Gráfico 8 “Rating vs. monto de compra”
 
@@ -596,6 +651,13 @@ Con esta información, se podría decir que en:
 
 ## Analizando los montos y números de compras
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c3a6104d-63b3-4dc1-978f-4d8b2f3c1775" alt="Distribución de números de compras por cliente" width="1280" height="720" />
+  <div align="center">
+    Distribución de números de compras por cliente
+  </div>
+</div>
+
 ### Gráfico 9. “Distribución de números de compras por cliente”
 
 **Datos duros**
@@ -619,6 +681,13 @@ Con esta información, se podría decir que en:
 | Alta frecuencia media (20–24) | Implementar un programa de fidelidad para mantener este ritmo de recompra. |
 | Grupo “heavy shoppers” (>30) | Identificar a estos clientes VIP para ofertas exclusivas y recompensas especiales. |
 | Ausencia de compradores esporádicos | Explorar campañas de adquisición para atraer nuevos clientes, pues la mayoría ya repite compras. |
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4474a9f8-3f94-44cc-a7c0-b536da1c0464" alt="Monto de compra vs. número de compras" width="1280" height="720" />
+  <div align="center">
+    Monto de compra vs. número de compras
+  </div>
+</div>
 
 ### Gráfico 10. “Monto de compra vs. número de compras”
 
@@ -797,6 +866,13 @@ Estos gráficos confirman visualmente la distribución y ayudan a tomar decision
 
 ## Analizando los clientes por segmento y el RFM Score
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/943325c5-5388-460a-9782-10ba6383d20f" alt="Clientes por segmento" width="1280" height="720" />
+  <div align="center">
+    Clientes por segmento
+  </div>
+</div>
+
 ### **Gráfico 11. “Clientes por segmento”**
 
 **Datos duros**
@@ -830,6 +906,13 @@ Entre las estrategias que se pudiera contemplar según el segmento, encontramos:
 | Champions | Programa VIP: acceso anticipado, regalos exclusivos. |
 | Frequent buyers | Incentivos de fidelidad: puntos extra, descuentos escalonados. |
 | Top champions | Atención personalizada: gestor de cuenta, invitaciones especiales. |
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e633dca5-d01d-45c6-9c64-88c4537deedf" alt="Distribución de RFM_Score" width="1280" height="720" />
+  <div align="center">
+    Distribución de RFM_Score
+  </div>
+</div>
 
 ### Gráfico 12. “Distribución de RFM_Score”
 
@@ -1027,6 +1110,13 @@ sns.boxplot(x=rfm['cluster'], y=rfm['monetary'])
 
 ## Analizando el Elbow Method, el Silhouette Score, los clusters en R vs. F y el valor monetario por clusters
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ea932915-a2be-41d1-b7c4-5fbc11d88fa5" alt="Elbow Method" width="1280" height="720" />
+  <div align="center">
+    Elbow Method
+  </div>
+</div>
+
 ### Gráfico 13. “**Elbow Method**”
 
 **Datos duros**
@@ -1050,6 +1140,13 @@ Contemplando lo anterior, se puede mencionar lo siguiente:
 | Gran ganancia al pasar de 1→3 clusters | Ya no basta con un solo grupo: hay al menos tres perfiles de cliente claramente distintos. |
 | “Codo” en k=4 | Elegir 4 clusters para capturar variedad de comportamientos sin sobredimensionar el modelo. |
 | Poca mejora >k=5 | Evitar más de 4–5 clusters: complejidad innecesaria para marketing y gestión de segmentos. |
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f4ee522f-4816-4464-b8db-4b69210b91cd" alt="Silhouette Score vs K" width="1280" height="720" />
+  <div align="center">
+    Silhouette Score vs K
+  </div>
+</div>
 
 ### Gráfico 14. “**Silhouette Score”**
 
@@ -1077,6 +1174,13 @@ Contemplando lo anterior, se puede mencionar lo siguiente:
 | Pérdida de cohesión >4 clusters | Evitar subdividir más allá de 4: los grupos serían demasiado pequeños y confusos. |
 | Validación cruzada | Repetir este análisis si se añaden nuevas features (p.ej. rating_mean). |
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e4b99a63-9f5a-4c10-87b1-2e79ec1f003f" alt="Clusters en R vs F" width="1280" height="720" />
+  <div align="center">
+    Clusters en R vs F
+  </div>
+</div>
+
 ### Gráfico 15. “Clusters en R vs F”
 
 **Datos duros**
@@ -1100,6 +1204,13 @@ Contemplando lo anterior, se puede mencionar lo siguiente:
 | 2 | “At risk”: campañas de re-enganche con ofertas agresivas y recordatorios (“Te extrañamos”). |
 | 1 | “Recent but light”: sugerencias de cross-sell para aumentar su frecuencia de compra. |
 | 0 | “Medio”: test de promociones A/B para ver qué incentiva más su recurrencia o ticket promedio. |
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/615e9dc1-9db6-4383-9c7d-076adde412b2" alt="Monetary por cluster" width="1280" height="720" />
+  <div align="center">
+    Monetary por cluster
+  </div>
+</div>
 
 ### Gráfico 16. “Monetary por cluster”
 
@@ -1226,6 +1337,13 @@ plt.show()
 
 ## Analizando el R_score vs. F_score, la distribución de gasto total y los números de clientes por cluster
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5f9b44ab-fc81-43cf-b4c0-cef04e187691" alt="Clusters R_score vs F_score" width="1280" height="720" />
+  <div align="center">
+    Clusters R_score vs F_score
+  </div>
+</div>
+
 ### Gráfico 17. “Clusters R_score vs F_score”
 
 **Datos duros**
@@ -1252,6 +1370,13 @@ Los clusters ocupan bloques de la cuadrícula R×F:
 | 1 | Bajo R, alta F | Incentivos de recencia (p.ej. “compra antes de 30 días”) |
 | 0 | Alto R, baja F | Campañas de frecuencia (“compra 2a visita con descuento”) |
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/15b67553-fd7a-444b-8f5d-71b53044d7e8" alt="Distribución de gasto total (monetary) por cluster" width="1280" height="720" />
+  <div align="center">
+    Distribución de gasto total (monetary) por cluster
+  </div>
+</div>
+
 ### Gráfico 18. “Distribución de gasto total (monetary) por cluster”
 
 **Datos duros**
@@ -1266,6 +1391,13 @@ Se ve igual que en el gráfico 16: medianas, IQR y outliers de gasto por cluster
 **Implicaciones del negocio**
 
 - Mismas acciones sugeridas en el análisis de boxplot anterior: enfocar upsell en clusters altos, re-enganche en clusters bajos, y subdividir cluster 3 para identificar sus outliers de gasto ultra alto.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/251cf8cd-a28d-42e5-98ea-d449bc315e90" alt="Número de clientes por cluster" width="1280" height="720" />
+  <div align="center">
+    Número de clientes por cluster
+  </div>
+</div>
 
 ### Gráfico 19. “Número de clientes por cluster”
 
